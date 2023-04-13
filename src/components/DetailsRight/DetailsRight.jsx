@@ -11,7 +11,6 @@ const DetailsRight = () => {
   const { shipmentData } = useContext(shipContext);
   const shipmentDetails = shipmentData.TransitEvents;
 
-  console.log(shipmentDetails);
   return (
     <div className="details-right">
       <h2>{tableText.head}</h2>
